@@ -10,7 +10,7 @@ install:
 	pip install -U pip
 	pip install -r requirements.txt
 	pip install -e .
-	pre-commit install
+
 
 # Run the FastAPI development server
 run:
